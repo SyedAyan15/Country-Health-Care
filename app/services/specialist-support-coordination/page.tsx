@@ -21,7 +21,7 @@ export default function SpecialistPage() {
       <div className="svc-hero">
         <svg
           className="hero-curve-svg"
-          viewBox="0 0 1440 400"
+          viewBox="0 0 1440 600"
           preserveAspectRatio="xMidYMid slice"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,11 +35,11 @@ export default function SpecialistPage() {
           </defs>
           <path
             className="hero-curve-path"
-            d="M -120 360 C 180 320, 560 80, 1050 200 S 1380 280, 1560 140"
+            d="M -120 560 C 180 520, 560 80, 1050 200 S 1380 360, 1560 140"
           />
           <path
             className="hero-curve-path-2"
-            d="M -120 400 C 200 360, 590 120, 1080 235 S 1390 320, 1560 180"
+            d="M -120 620 C 200 575, 590 140, 1080 255 S 1390 410, 1560 200"
           />
         </svg>
         <div className="svc-hero-inner">
