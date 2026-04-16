@@ -35,15 +35,11 @@ export const metadata: Metadata = {
     siteName: "Country Health and Care",
     locale: "en_AU",
     type: "website",
-    images: [
-      { url: "/images/logo-hero.webp", width: 1600, height: 1297, alt: "Country Health and Care" },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Country Health and Care",
     description: "Compassionate, person-centred NDIS services across Australia.",
-    images: ["/images/logo-hero.webp"],
   },
   robots: {
     index: true,

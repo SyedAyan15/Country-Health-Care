@@ -27,27 +27,29 @@ export default function OGImage() {
             top: 0,
             left: 0,
             right: 0,
-            height: "6px",
+            height: "8px",
             background: "linear-gradient(90deg, #f97316, #22d3ee)",
+            display: "flex",
           }}
         />
 
-        {/* Logo */}
+        {/* Logo from public folder */}
         <img
           src="https://www.countryhealthandcare.com.au/images/logo-hero.png"
-          width={110}
-          height={110}
-          style={{ marginBottom: "28px" }}
+          width={130}
+          height={130}
+          style={{ marginBottom: "32px", borderRadius: "16px" }}
         />
 
         {/* Company name */}
         <div
           style={{
-            fontSize: "52px",
+            fontSize: "56px",
             fontWeight: "900",
             color: "#ffffff",
-            marginBottom: "14px",
+            marginBottom: "16px",
             letterSpacing: "-1px",
+            display: "flex",
           }}
         >
           Country Health and Care
@@ -56,9 +58,10 @@ export default function OGImage() {
         {/* Tagline */}
         <div
           style={{
-            fontSize: "22px",
+            fontSize: "24px",
             color: "rgba(255,255,255,0.55)",
             letterSpacing: "0.5px",
+            display: "flex",
           }}
         >
           Compassionate NDIS Services Across Australia
@@ -69,9 +72,10 @@ export default function OGImage() {
           style={{
             position: "absolute",
             bottom: "32px",
-            fontSize: "16px",
+            fontSize: "18px",
             color: "rgba(255,255,255,0.3)",
             letterSpacing: "1px",
+            display: "flex",
           }}
         >
           countryhealthandcare.com.au
