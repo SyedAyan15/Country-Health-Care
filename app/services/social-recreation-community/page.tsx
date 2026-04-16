@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Social, Recreation & Community Participation | NDIS | Country Health and Care",
+  title: "Social, Recreation & Community Participation | NDIS",
   description:
     "NDIS Social, Recreation and Community Participation support to connect you with your community and build independence.",
   openGraph: {

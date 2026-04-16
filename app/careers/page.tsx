@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Careers | Country Health and Care",
+  title: "Careers",
   description:
     "Join the Country Health and Care team. We are looking for compassionate and dedicated professionals to deliver NDIS support services across Australia.",
   alternates: { canonical: "https://www.countryhealthandcare.com.au/careers" },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Country Health and Care",
+  title: "Blog",
   description:
     "News, tips and resources about NDIS services, disability support and community care from Country Health and Care.",
   alternates: { canonical: "https://www.countryhealthandcare.com.au/blog" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Make a Referral | Country Health and Care",
+  title: "Make a Referral",
   description:
     "Refer yourself or someone else for NDIS support services. Our team will be in touch to discuss your needs.",
   alternates: { canonical: "https://www.countryhealthandcare.com.au/referral" },

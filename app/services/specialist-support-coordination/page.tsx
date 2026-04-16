@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Specialist Support Coordination | NDIS | Country Health and Care",
+  title: "Specialist Support Coordination | NDIS",
   description:
     "Specialist Support Coordination for complex NDIS needs. Expert support to reduce risk and build stability across Australia.",
   openGraph: {

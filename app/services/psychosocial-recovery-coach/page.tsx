@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Psychosocial Recovery Coach | NDIS | Country Health and Care",
+  title: "Psychosocial Recovery Coach | NDIS",
   description:
     "NDIS Psychosocial Recovery Coaching to build resilience and confidence in your mental health recovery journey.",
   openGraph: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "In Home Support Services | NDIS | Country Health and Care",
+  title: "In Home Support Services | NDIS",
   description:
     "Personalised in-home NDIS support to help you live safely and independently in your own home.",
   openGraph: {
