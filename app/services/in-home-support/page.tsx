@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import CTABanner from "@/components/CTABanner";
 
 export const metadata: Metadata = {
   title: "In Home Support Services | NDIS | Country Health and Care",
@@ -19,6 +17,29 @@ export default function InHomePage() {
   return (
     <>
       <div className="svc-hero">
+        <svg
+          className="hero-curve-svg"
+          viewBox="0 0 1440 400"
+          preserveAspectRatio="xMidYMid slice"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="heroSwooshGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#f97316" stopOpacity="0.9" />
+              <stop offset="55%" stopColor="#f97316" />
+              <stop offset="100%" stopColor="#22d3ee" stopOpacity="0.7" />
+            </linearGradient>
+          </defs>
+          <path
+            className="hero-curve-path"
+            d="M -120 360 C 180 320, 560 80, 1050 200 S 1380 280, 1560 140"
+          />
+          <path
+            className="hero-curve-path-2"
+            d="M -120 400 C 200 360, 590 120, 1080 235 S 1390 320, 1560 180"
+          />
+        </svg>
         <div className="svc-hero-inner">
           <div className="svc-breadcrumb">
             <a href="/">Home</a> &rsaquo; <span>In Home Support</span>
