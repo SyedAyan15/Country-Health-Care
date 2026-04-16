@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.countryhealthandcare.com.au
+
+# Sitemaps
+Sitemap: https://www.countryhealthandcare.com.au/sitemap.xml
