@@ -54,7 +54,7 @@ export default function SupportCoordPage() {
             </strong>
           </p>
           <a href="/referral" className="enquire-btn">
-            Enquire now
+            Submit a Referral
           </a>
         </div>
       </div>
