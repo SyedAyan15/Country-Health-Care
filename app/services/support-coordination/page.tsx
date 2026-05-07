@@ -631,7 +631,7 @@ export default function SupportCoordPage() {
           </div>
           <div className="why-cta">
             <a href="/referral" className="enquire-btn">
-              Enquire Now
+              Submit a Referral
             </a>
           </div>
         </div>

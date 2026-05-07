@@ -75,7 +75,7 @@ export default function HomePage() {
                 Our Services
               </a>
               <a href="/referral" className="enquire-btn">
-                Enquire Now
+                Submit a Referral
               </a>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function HomePage() {
             Reach out today and let us help you navigate your NDIS journey with confidence and care.
           </p>
           <a href="/referral" className="enquire-btn">
-            Enquire Now
+            Submit a Referral
           </a>
         </div>
       </section>

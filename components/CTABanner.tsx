@@ -26,7 +26,7 @@ export default function CTABanner() {
           Reach out today and let us help you navigate your NDIS journey with confidence and care.
         </p>
         <Link href="/referral" className="enquire-btn">
-          Enquire Now
+          Submit a Referral
         </Link>
       </div>
     </section>

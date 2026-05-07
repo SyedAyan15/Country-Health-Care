@@ -52,7 +52,7 @@ export default function NursingPage() {
             </strong>
           </p>
           <a href="/referral" className="enquire-btn">
-            Enquire Now
+            Submit a Referral
           </a>
         </div>
       </div>
@@ -526,7 +526,7 @@ export default function NursingPage() {
           </div>
           <div className="why-cta">
             <a href="/referral" className="enquire-btn">
-              Enquire Now
+              Submit a Referral
             </a>
           </div>
         </div>

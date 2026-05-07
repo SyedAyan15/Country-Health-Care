@@ -55,7 +55,7 @@ export default function SocialPage() {
             </strong>
           </p>
           <a href="/referral" className="enquire-btn">
-            Enquire Now
+            Submit a Referral
           </a>
         </div>
       </div>
@@ -317,7 +317,7 @@ export default function SocialPage() {
           </div>
           <div className="why-cta">
             <a href="/referral" className="enquire-btn">
-              Enquire Now
+              Submit a Referral
             </a>
           </div>
         </div>

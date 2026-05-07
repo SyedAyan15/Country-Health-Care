@@ -96,7 +96,7 @@ export default function Footer() {
                 <Link href="/careers">Careers</Link>
               </li>
               <li>
-                <Link href="/referral">Enquire Now</Link>
+                <Link href="/referral">Submit a Referral</Link>
               </li>
               <li>
                 <Link href="/contact">Contact Us</Link>
