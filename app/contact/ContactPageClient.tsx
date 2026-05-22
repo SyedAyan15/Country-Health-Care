@@ -48,7 +48,7 @@ export default function ContactPageClient() {
               <div className="contact-detail-ico">📞</div>
               <div className="contact-detail-text">
                 <h4>Phone</h4>
-                <p>Phone number coming soon</p>
+                <p>0493 018 454</p>
               </div>
             </div>
             <div className="contact-detail">
