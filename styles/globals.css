@@ -2061,6 +2061,372 @@ footer {
   }
 }
 
+/* ── FEEDBACK CENTRE PAGE ── */
+.fb-hero {
+  background: var(--navy);
+  padding: 110px 5% 56px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 3px solid var(--teal);
+}
+
+.fb-hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.fb-hero-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: clamp(32px, 5vw, 56px);
+  color: var(--teal);
+  margin: 0 0 14px;
+}
+
+.fb-hero-sub {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 540px;
+}
+
+.fb-page-bg {
+  background: #f0f4f8;
+}
+
+.fb-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 40px;
+  padding: 52px 5%;
+  align-items: start;
+}
+
+.fb-form-heading {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: var(--navy);
+  margin: 0 0 20px;
+}
+
+.fb-form-card {
+  background: white;
+  border-radius: 14px;
+  padding: 36px 32px;
+  box-shadow: 0 2px 16px rgba(15, 24, 55, 0.08);
+}
+
+.fb-type-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.fb-type-btn {
+  padding: 9px 22px;
+  border: 1.5px solid var(--border);
+  border-radius: 7px;
+  background: white;
+  color: var(--text);
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.fb-type-btn:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+}
+
+.fb-type-btn.active {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: white;
+}
+
+.fb-agree-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 18px 0 24px;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.fb-agree-row input[type="checkbox"] {
+  margin-top: 2px;
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  accent-color: var(--navy);
+  cursor: pointer;
+}
+
+.fb-agree-row label {
+  cursor: pointer;
+}
+
+.fb-submit-btn {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.15s;
+}
+
+.fb-submit-btn:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.fb-submit-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Sidebar */
+.fb-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fb-accordion {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(15, 24, 55, 0.07);
+}
+
+.fb-accordion-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 18px;
+  background: none;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 14.5px;
+  color: var(--navy);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.fb-accordion-btn:hover {
+  background: #f8fafc;
+}
+
+.fb-acc-arrow {
+  color: var(--teal);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.fb-accordion-body {
+  padding: 4px 18px 20px;
+  font-size: 13.5px;
+  color: #374151;
+  line-height: 1.75;
+}
+
+.fb-accordion-body ul {
+  padding-left: 18px;
+  margin: 8px 0;
+}
+
+.fb-accordion-body li {
+  margin-bottom: 5px;
+}
+
+.fb-info-card {
+  border-radius: 12px;
+  padding: 22px 20px;
+  color: white;
+}
+
+.fb-info-purple {
+  background: linear-gradient(135deg, #5b21b6, #7c3aed);
+}
+
+.fb-info-navy {
+  background: linear-gradient(135deg, #1e3a8a, var(--navy));
+}
+
+.fb-info-card h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 0 0 14px;
+}
+
+.fb-info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.fb-info-card li {
+  font-size: 13.5px;
+  line-height: 1.5;
+  padding-left: 12px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fb-info-card li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--teal);
+}
+
+.fb-info-card p {
+  font-size: 13.5px;
+  line-height: 1.7;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Who / Helps sections */
+.fb-who-section {
+  background: #07102a;
+  padding: 80px 5%;
+}
+
+.fb-who-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.fb-helps-section {
+  background: linear-gradient(140deg, #064e3b, #065f46 50%, #047857);
+  padding: 80px 5%;
+}
+
+.fb-helps-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.fb-section-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: clamp(26px, 3.5vw, 40px);
+  color: white;
+  margin: 0 0 6px;
+  display: inline-block;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #a3e635;
+}
+
+.fb-section-title-amber {
+  border-bottom-color: #f59e0b;
+}
+
+.fb-icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fb-icon-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+.fb-ico-wrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.fb-ico-wrap svg {
+  width: 20px;
+  height: 20px;
+}
+
+.fb-who-illus svg,
+.fb-helps-illus svg {
+  width: 100%;
+  max-width: 380px;
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .fb-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .fb-who-inner,
+  .fb-helps-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .fb-who-illus,
+  .fb-helps-illus {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .fb-hero {
+    padding: 96px 5% 44px;
+  }
+
+  .fb-form-card {
+    padding: 24px 16px;
+  }
+
+  .fb-who-section,
+  .fb-helps-section {
+    padding: 56px 5%;
+  }
+
+  .fb-layout {
+    padding: 36px 5%;
+  }
+}
+
 /* ── Hero decorative curve ── */
 .hero-curve-svg {
   position: absolute;

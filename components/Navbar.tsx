@@ -67,6 +67,9 @@ export default function Navbar() {
           <Link href="/careers" className="nav-link" onClick={close}>
             Careers
           </Link>
+          <Link href="/feedback" className="nav-link" onClick={close}>
+            Feedback
+          </Link>
           <Link href="/contact" className="nav-contact-btn" onClick={close}>
             Contact Us
           </Link>
@@ -103,6 +106,9 @@ export default function Navbar() {
         </span>
         <Link href="/careers" className="mob-item" onClick={close}>
           Careers
+        </Link>
+        <Link href="/feedback" className="mob-item" onClick={close}>
+          Feedback Centre
         </Link>
         <Link href="/contact" className="mob-item" onClick={close}>
           Contact Us
