@@ -445,7 +445,7 @@ export default function FeedbackPageClient() {
                 <circle cx="280" cy="80" r="24" stroke="#f97316" strokeWidth="2" fill="rgba(249,115,22,0.08)" />
                 <path d="M255 145 Q280 128 305 145 L312 240 L248 240Z" stroke="#f97316" strokeWidth="2" fill="rgba(249,115,22,0.08)" />
                 {/* Speech bubbles */}
-                <ellipse cx="112" cy="42" rx="28" ry="17" fill="#22d3ee" opacity="0.85" rx2="6" />
+                <ellipse cx="112" cy="42" rx="28" ry="17" fill="#22d3ee" opacity="0.85" />
                 <text x="112" y="48" textAnchor="middle" fill="white" fontSize="14">♥</text>
                 <ellipse cx="200" cy="28" rx="24" ry="15" fill="#f97316" opacity="0.85" />
                 <text x="200" y="34" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">•••</text>
