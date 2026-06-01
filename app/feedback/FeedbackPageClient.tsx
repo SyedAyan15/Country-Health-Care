@@ -277,7 +277,7 @@ export default function FeedbackPageClient() {
         {/* Who can give feedback + Your feedback helps us — branded image */}
         <section className="fb-infographic-section">
           <img
-            src="/WhatsApp Image 2026-05-31 at 6.13.28 PM.jpeg"
+            src="/feedback-infographic.jpeg"
             alt="Who can give feedback and how your feedback helps us"
             className="fb-infographic-img"
           />
