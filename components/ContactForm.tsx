@@ -129,7 +129,7 @@ export default function ContactForm() {
           style={{ background: "#fef2f2", color: "#dc2626", borderColor: "#fecaca" }}
         >
           Something went wrong. Please try again or email us directly at
-          admin@countryhealthandcare.com.au
+          intake@countryhealthandcare.com.au
         </div>
       )}
     </form>

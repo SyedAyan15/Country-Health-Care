@@ -108,10 +108,10 @@ export default function Footer() {
             <ul>
               <li>
                 <a
-                  href="mailto:admin@countryhealthandcare.com.au"
+                  href="mailto:intake@countryhealthandcare.com.au"
                   style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}
                 >
-                  admin@countryhealthandcare.com.au
+                  intake@countryhealthandcare.com.au
                 </a>
               </li>
               <li>Mon &ndash; Fri: 9:00am &ndash; 5:00pm</li>

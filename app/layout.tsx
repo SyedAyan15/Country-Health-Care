@@ -14,7 +14,7 @@ const schema = {
   serviceType: "NDIS Support Services",
   contactPoint: {
     "@type": "ContactPoint",
-    email: "admin@countryhealthandcare.com.au",
+    email: "intake@countryhealthandcare.com.au",
     contactType: "customer service",
   },
 };

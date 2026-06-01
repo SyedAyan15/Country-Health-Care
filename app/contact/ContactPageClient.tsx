@@ -36,10 +36,10 @@ export default function ContactPageClient() {
                 <h4>Email</h4>
                 <p>
                   <a
-                    href="mailto:admin@countryhealthandcare.com.au"
+                    href="mailto:intake@countryhealthandcare.com.au"
                     style={{ color: "var(--teal)", textDecoration: "none" }}
                   >
-                    admin@countryhealthandcare.com.au
+                    intake@countryhealthandcare.com.au
                   </a>
                 </p>
               </div>

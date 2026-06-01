@@ -4,7 +4,7 @@ import { Resend } from "resend";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const FROM = "Country Health and Care <admin@countryhealthandcare.com.au>";
+const FROM = "Country Health and Care <intake@countryhealthandcare.com.au>";
 const COMPLAINTS_EMAIL = "complaints@countryhealthandcare.com.au";
 
 export async function POST(req: NextRequest) {

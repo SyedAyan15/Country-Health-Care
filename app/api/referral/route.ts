@@ -4,8 +4,8 @@ import { Resend } from "resend";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const FROM = "Country Health and Care <admin@countryhealthandcare.com.au>";
-const ADMIN = "admin@countryhealthandcare.com.au";
+const FROM = "Country Health and Care <intake@countryhealthandcare.com.au>";
+const ADMIN = "intake@countryhealthandcare.com.au";
 
 export async function POST(req: NextRequest) {
   try {
@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
               <p style="color:#374151;font-size:15px;margin:0;">Warm regards,<br/><strong>Country Health and Care Team</strong></p>
             </div>
             <div style="background:#f9fafb;padding:24px 40px;text-align:center;border:1px solid #e5e7eb;border-top:none;border-radius:0 0 8px 8px;">
-              <p style="color:#9ca3af;font-size:12px;margin:0;">ABN: 91 696 613 162 &nbsp;|&nbsp; admin@countryhealthandcare.com.au</p>
+              <p style="color:#9ca3af;font-size:12px;margin:0;">ABN: 91 696 613 162 &nbsp;|&nbsp; intake@countryhealthandcare.com.au</p>
               <p style="color:#9ca3af;font-size:12px;margin:6px 0 0;">Serving participants across Australia</p>
             </div>
           </div>
