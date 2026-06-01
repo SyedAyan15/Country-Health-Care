@@ -2306,89 +2306,18 @@ footer {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* Who / Helps sections */
-.fb-who-section {
-  background: #07102a;
-  padding: 80px 5%;
-}
-
-.fb-who-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-
-.fb-helps-section {
-  background: linear-gradient(140deg, #064e3b, #065f46 50%, #047857);
-  padding: 80px 5%;
-}
-
-.fb-helps-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-
-.fb-section-title {
-  font-family: "Nunito", sans-serif;
-  font-weight: 900;
-  font-size: clamp(26px, 3.5vw, 40px);
-  color: white;
-  margin: 0 0 6px;
-  display: inline-block;
-  padding-bottom: 12px;
-  border-bottom: 3px solid #a3e635;
-}
-
-.fb-section-title-amber {
-  border-bottom-color: #f59e0b;
-}
-
-.fb-icon-list {
-  list-style: none;
-  padding: 0;
-  margin: 24px 0 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.fb-icon-list li {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Nunito", sans-serif;
-}
-
-.fb-ico-wrap {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.fb-ico-wrap svg {
-  width: 20px;
-  height: 20px;
-}
-
-.fb-who-illus svg,
-.fb-helps-illus svg {
+/* Infographic image section */
+.fb-infographic-section {
   width: 100%;
-  max-width: 380px;
-  opacity: 0.85;
+  background: #07102a;
+}
+
+.fb-infographic-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Responsive */
@@ -2397,15 +2326,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .fb-who-inner,
-  .fb-helps-inner {
-    grid-template-columns: 1fr;
-  }
 
-  .fb-who-illus,
-  .fb-helps-illus {
-    display: none;
-  }
 }
 
 @media (max-width: 640px) {
