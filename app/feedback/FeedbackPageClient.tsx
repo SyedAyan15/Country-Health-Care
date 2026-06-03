@@ -183,11 +183,6 @@ export default function FeedbackPageClient() {
                     <li>The actions required to resolve the issue</li>
                     <li>The expected timeframe for resolution</li>
                   </ul>
-                  <p style={{ marginTop: "12px" }}>
-                    Most complaints are resolved within <strong>4 to 12 weeks</strong>, depending on
-                    their complexity. We will keep you informed throughout the process and provide a
-                    written outcome once the review is completed.
-                  </p>
                   <h4 style={{ marginTop: "16px", marginBottom: "8px", color: "var(--navy)" }}>
                     If You Are Not Satisfied
                   </h4>
