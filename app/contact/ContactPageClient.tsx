@@ -65,6 +65,13 @@ export default function ContactPageClient() {
                 <p>Serving participants across Australia</p>
               </div>
             </div>
+            <div className="contact-detail">
+              <div className="contact-detail-ico">📬</div>
+              <div className="contact-detail-text">
+                <h4>Postal Address</h4>
+                <p>PO Box 1499, Dubbo NSW 2830</p>
+              </div>
+            </div>
             <div style={{ marginTop: "28px" }}>
               <p
                 style={{

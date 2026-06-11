@@ -12,6 +12,14 @@ const schema = {
   description: "NDIS disability and nursing services across Australia",
   areaServed: "Australia",
   serviceType: "NDIS Support Services",
+  address: {
+    "@type": "PostalAddress",
+    postOfficeBoxNumber: "1499",
+    addressLocality: "Dubbo",
+    addressRegion: "NSW",
+    postalCode: "2830",
+    addressCountry: "AU",
+  },
   contactPoint: {
     "@type": "ContactPoint",
     email: "intake@countryhealthandcare.com.au",

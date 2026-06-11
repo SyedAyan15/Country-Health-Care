@@ -115,6 +115,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>Mon &ndash; Fri: 9:00am &ndash; 5:00pm</li>
+              <li>PO Box 1499, Dubbo NSW 2830</li>
               <li>ABN: 91 696 613 162</li>
             </ul>
           </div>
